@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ramin (Rameen) Village, Tulkarm, Palestine | رامين | نادي رامين Ramin Club</title>
+<meta name="description" content="Ramin (Rameen, رامين) is a Palestinian village near Tulkarm, famous for figs, olive oil and the Hejaz Railway tunnel. Home of Ramin Basketball Club (نادي رامين), First Division champions.">
+<meta name="theme-color" content="#55672b">
+<meta name="keywords" content="Ramin, Rameen, Ramin village, Rameen village, Ramin Tulkarm, Ramin Club, Rameen Club, Ramin basketball club, Ramin First Division champions, Palestinian villages, Tulkarm villages, Palestine figs, Palestine olive oil, Hejaz Railway tunnel, رامين, قرية رامين, رامين طولكرم, نادي رامين, نادي رامين لكرة السلة">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ramin (Rameen) Village, Tulkarm, Palestine | رامين | نادي رامين">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="ar_AR">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:description" content="Ramin (Rameen, رامين), a Palestinian village near Tulkarm known for figs, olive oil and the Hejaz Railway tunnel, and home of Ramin Basketball Club (نادي رامين).">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Place",
+  "name": "Ramin",
+  "alternateName": ["Ramin village", "Ramin", "Rameen", "Rameen village", "رامين", "قرية رامين"],
+  "description": "Ramin is a Palestinian village near Tulkarm in northern Palestine, known for figs, olive oil, the Hejaz Railway tunnel and its farmland.",
+  "containedInPlace": { "@type": "City", "name": "Tulkarm" },
+  "address": { "@type": "PostalAddress", "addressRegion": "Tulkarm", "addressCountry": "PS" },
+  "hasMap": "https://maps.app.goo.gl/osx2pn5yfhkXCAiu6"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SportsTeam",
+  "name": "Ramin Club",
+  "alternateName": ["Ramin Basketball Club", "Rameen Club", "نادي رامين", "نادي رامين لكرة السلة"],
+  "sport": "Basketball",
+  "description": "Ramin Club, from Ramin village in the Tulkarm governorate of Palestine, won the First Division basketball league title and was promoted to the Premier League.",
+  "location": { "@type": "Place", "name": "Ramin, Tulkarm, Palestine" },
+  "coach": { "@type": "Person", "name": "Ahmad Sanjaq" }
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700;800&family=Cairo:wght@400;600;700;800&family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --fig: #3d2342;
+    --olive: #55672b;
+    --leaf: #dfe6cf;
+    --stone: #f2f3ee;
+    --ink: #22201f;
+    --sun: #e0a526;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: "Nunito Sans", Arial, sans-serif;
+    color: var(--ink);
+    background: var(--stone);
+    line-height: 1.7;
+    font-size: 1.05rem;
+  }
+  h1, h2 { font-family: Bitter, Georgia, serif; line-height: 1.15; }
+
+  /* Arabic typography */
+  html[lang="ar"] body { font-family: Cairo, "Segoe UI", Tahoma, Arial, sans-serif; line-height: 1.9; }
+  html[lang="ar"] h1, html[lang="ar"] h2, html[lang="ar"] .fact strong { font-family: Cairo, "Segoe UI", Tahoma, Arial, sans-serif; line-height: 1.4; }
+  html[lang="ar"] .hero h1 { letter-spacing: 0; }
+
+  a:focus-visible, .btn:focus-visible, .lang-btn:focus-visible { outline: 3px solid var(--sun); outline-offset: 3px; }
+
+  header.hero {
+    background: var(--fig);
+    color: #fff;
+    padding: 5rem 1.5rem 4rem;
+    text-align: start;
+  }
+  .wrap { max-width: 980px; margin: 0 auto; }
+  .hero h1 { font-size: clamp(4rem, 14vw, 9rem); font-weight: 800; letter-spacing: -0.03em; }
+  .hero p { max-width: 36rem; margin-top: 1rem; color: #e6d9e8; font-size: 1.15rem; }
+
+  nav { background: var(--olive); position: sticky; top: 0; z-index: 5; }
+  nav ul { list-style: none; display: flex; flex-wrap: wrap; align-items: center; gap: 0.25rem 1.5rem; max-width: 980px; margin: 0 auto; padding: 0.7rem 1.5rem; }
+  nav a { color: #fff; text-decoration: none; font-weight: 600; }
+  nav a:hover { text-decoration: underline; }
+  nav li.lang-item { margin-inline-start: auto; }
+  .lang-btn {
+    background: var(--sun);
+    color: #22201f;
+    border: 0;
+    border-radius: 4px;
+    padding: 0.3rem 0.9rem;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .lang-btn:hover { background: #f0b73a; }
+
+  section { padding: 3.5rem 1.5rem; }
+  section:nth-of-type(even) { background: #fff; }
+  h2 { font-size: clamp(1.8rem, 4vw, 2.5rem); color: var(--fig); margin-bottom: 1.2rem; }
+  p + p { margin-top: 1rem; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center; margin-top: 1.5rem; }
+  .split.flip .text { order: 2; }
+  figure img, .photo { width: 100%; height: 100%; max-height: 380px; object-fit: cover; border-radius: 6px; display: block; }
+  .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1.5rem; }
+  figcaption { font-size: 0.95rem; color: #5c5560; margin-top: 0.4rem; }
+
+  /* Season calendar: the real months each crop is harvested (kept left-to-right so Jan -> Dec order is preserved) */
+  .calendar { margin-top: 2rem; overflow-x: auto; direction: ltr; }
+  .months { display: grid; grid-template-columns: 5.5rem repeat(12, minmax(44px, 1fr)); gap: 3px; min-width: 720px; align-items: center; font-size: 0.85rem; }
+  html[lang="ar"] .months { font-size: 0.8rem; }
+  .months .m { text-align: center; font-weight: 600; color: #5c5560; }
+  .months .label { font-weight: 700; }
+  html[lang="ar"] .months .label { text-align: right; }
+  .bar { height: 26px; border-radius: 4px; }
+  .fig-bar { background: var(--fig); grid-column: 3 / 8; }
+  .olive-bar { background: var(--olive); grid-column: 11 / 14; }
+
+  .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.25rem; margin-top: 1.5rem; }
+  .fact { border-inline-start: 5px solid var(--olive); padding: 0.4rem 0; padding-inline-start: 1rem; }
+  .fact strong { display: block; font-family: Bitter, Georgia, serif; font-size: 1.15rem; color: var(--fig); }
+
+  html { -webkit-text-size-adjust: 100%; }
+  section { scroll-margin-top: 3.2rem; }
+  .hero p.aka { margin-top: 0.6rem; font-size: 0.95rem; color: #cdbdd0; }
+
+  /* Click-to-enlarge images */
+  figure img { cursor: zoom-in; }
+  .lightbox { position: fixed; inset: 0; z-index: 50; display: flex; align-items: center; justify-content: center; padding: 1rem; background: rgba(20, 10, 22, 0.94); cursor: zoom-out; }
+  .lightbox[hidden] { display: none; }
+  .lightbox img { width: 100%; height: 100%; object-fit: contain; border-radius: 6px; }
+  .lb-close { position: absolute; top: 1rem; inset-inline-end: 1rem; width: 2.8rem; height: 2.8rem; border: 0; border-radius: 50%; background: var(--sun); color: #22201f; font-size: 1.8rem; line-height: 1; font-weight: 700; cursor: pointer; }
+  .lb-close:hover { background: #f0b73a; }
+  .lb-close:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
+
+  /* Video */
+  .video { position: relative; aspect-ratio: 16 / 9; margin-top: 1rem; border-radius: 6px; overflow: hidden; background: #000; }
+  .video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+  /* Basketball club section */
+  .badge { display: inline-block; background: var(--sun); color: #22201f; font-weight: 800; font-size: 0.85rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.25rem 0.9rem; border-radius: 999px; margin-bottom: 1rem; }
+  html[lang="ar"] .badge { letter-spacing: 0; }
+  .club h3 { font-family: Bitter, Georgia, serif; font-size: 1.4rem; color: var(--fig); margin-top: 2.5rem; }
+  html[lang="ar"] .club h3 { font-family: Cairo, "Segoe UI", Tahoma, Arial, sans-serif; }
+  .path { list-style: none; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1rem; }
+  .path li { background: var(--fig); color: #fff; padding: 1.2rem; border-radius: 6px; }
+  .path .step { display: block; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--sun); }
+  html[lang="ar"] .path .step { letter-spacing: 0; }
+  .path .big { display: block; font-family: Bitter, Georgia, serif; font-size: 2.2rem; font-weight: 800; line-height: 1.2; margin: 0.2rem 0 0.4rem; direction: ltr; unicode-bidi: isolate; }
+  html[lang="ar"] .path .big { font-family: Cairo, "Segoe UI", Tahoma, Arial, sans-serif; direction: inherit; }
+  .path .desc { color: #e6d9e8; font-size: 0.98rem; line-height: 1.5; display: block; }
+  .callout { border-inline-start: 5px solid var(--sun); background: var(--leaf); padding: 1rem 1.2rem; border-radius: 4px; margin-top: 1.2rem; }
+  .callout strong { display: block; font-family: Bitter, Georgia, serif; color: var(--fig); font-size: 1.1rem; }
+  html[lang="ar"] .callout strong { font-family: Cairo, "Segoe UI", Tahoma, Arial, sans-serif; }
+  @media (max-width: 720px) { .path { grid-template-columns: 1fr; } }
+
+  .location { background: var(--olive) !important; color: #fff; text-align: center; }
+  .location h2 { color: #fff; }
+  .btn { display: inline-block; margin-top: 1.2rem; background: var(--sun); color: #22201f; padding: 0.8rem 1.6rem; border-radius: 4px; font-weight: 700; text-decoration: none; }
+  .btn:hover { background: #f0b73a; }
+
+  .map { width: 100%; height: 360px; border: 0; border-radius: 6px; margin-top: 1.2rem; display: block; }
+  .img-fail { background: var(--leaf); color: var(--olive); padding: 2rem 1rem; text-align: center; border-radius: 6px; font-weight: 600; }
+  footer { background: var(--fig); color: #cdbdd0; text-align: center; padding: 1.5rem; font-size: 0.95rem; }
+
+  @media (max-width: 720px) {
+    body { font-size: 1rem; }
+    .split, .pair { grid-template-columns: 1fr; gap: 1.25rem; }
+    .split.flip .text { order: 0; }
+    header.hero { padding: 3rem 1.25rem 2.5rem; }
+    .hero h1 { font-size: clamp(3.2rem, 20vw, 5rem); }
+    .hero p { font-size: 1.05rem; }
+    section { padding: 2.5rem 1.25rem; }
+
+    /* One-row, swipeable menu; the language button stays pinned at the end */
+    nav ul { flex-wrap: nowrap; overflow-x: auto; gap: 0 1.1rem; padding: 0.15rem 1rem; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+    nav ul::-webkit-scrollbar { display: none; }
+    nav li { flex: 0 0 auto; }
+    nav a { display: block; padding: 0.75rem 0; white-space: nowrap; }
+    nav li.lang-item { position: sticky; inset-inline-end: 0; margin-inline-start: auto; padding-inline-start: 0.6rem; background: var(--olive); }
+    .lang-btn { padding: 0.5rem 0.95rem; }
+
+    figure img { max-height: 280px; }
+    .path .big { font-size: 1.9rem; }
+    .map { height: 300px; }
+    .btn { display: block; text-align: center; }
+    .lightbox { padding: 0.5rem; }
+    .lb-close { width: 3rem; height: 3rem; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <h1 data-i18n="hero_title">Ramin</h1>
+    <p data-i18n="hero_p">A village in northern Palestine, near Tulkarm, known for its figs and olive oil.</p>
+    <p class="aka"><span data-i18n="aka_l">Also written</span> Rameen · <span lang="ar" dir="rtl">رامين</span> · Ramin Basketball Club · <span lang="ar" dir="rtl">نادي رامين</span></p>
+  </div>
+</header>
+
+<nav aria-label="Main" data-i18n-aria="nav_label">
+  <ul>
+    <li><a href="#about" data-i18n="nav_about">About</a></li>
+    <li><a href="#landmarks" data-i18n="nav_landmarks">Landmarks</a></li>
+    <li><a href="#farming" data-i18n="nav_farming">Farming</a></li>
+    <li><a href="#weather" data-i18n="nav_weather">Weather</a></li>
+    <li><a href="#community" data-i18n="nav_community">Community</a></li>
+    <li><a href="#club" data-i18n="nav_club">Basketball</a></li>
+    <li><a href="#location" data-i18n="nav_location">Location</a></li>
+    <li class="lang-item"><button type="button" class="lang-btn" id="langBtn" lang="ar" aria-label="التبديل إلى العربية">العربية</button></li>
+  </ul>
+</nav>
+
+<section id="about">
+  <div class="wrap">
+    <h2 data-i18n="about_h">About Ramin, a village in Palestine</h2>
+    <div class="split">
+      <div class="text">
+        <p data-i18n="about_p1">Ramin is a village in northern Palestine that belongs to the city of Tulkarm. It is a link between the cities of Tulkarm and Nablus and the municipalities of Beit Lid and Bazzariya.</p>
+        <p data-i18n="about_p2">Many thinkers and scholars came from Ramin and helped Palestine develop. It is also one of the biggest producers of figs and olive oil in Palestine, supplying them across the country. In one season, which lasts about two and a half to three months, Ramin yields more than 360 tons of figs.</p>
+      </div>
+      <figure>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_QFeQcVlzWqeeXiXYKqyhfucW2ijCnJMN7IOqZXGi2g&s=10" alt="View of Ramin village" data-i18n-alt="about_img">
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section id="landmarks">
+  <div class="wrap">
+    <h2 data-i18n="land_h">Landmarks</h2>
+    <div class="split flip">
+      <div class="text">
+        <p data-i18n="land_p1">Ramin has many old landmarks from the Ottoman era. One of them is the Hejaz Railway tunnel, which connected the Levant with the Arabian Peninsula. It also linked the cities of Beisan, Jenin, Tulkarm, Haifa, Jaffa and Acre inside Palestine.</p>
+        <p data-i18n="land_p2">Work began in the late 19th century under Sultan Abdul Hamid II, supervised by the German engineer Heinrich August Meissner. The railway was officially opened in 1912.</p>
+      </div>
+      <figure>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWeQB9HkIwK7ceKiY_iIrOnxlKWxucg8Gozcx00Jpasw&s=10" alt="Hejaz Railway tunnel in Ramin" data-i18n-alt="land_img1">
+      </figure>
+    </div>
+    <div class="split">
+      <div class="text">
+        <p data-i18n="land_p3">Ramin also has a large plain. Residents use its wide area for farming, growing wheat, plums, cherries, figs and olives.</p>
+      </div>
+      <figure>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThFQHvJx08AfakHTpdLge5NUlgMQa2S22drmj-4WbJXg&s=10" alt="The large plain of Ramin" data-i18n-alt="land_img2">
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section id="farming">
+  <div class="wrap">
+    <h2 data-i18n="farm_h">Farming and harvest seasons</h2>
+    <p data-i18n="farm_p1">Ramin is famous for growing figs and olives. Most families depend on these two seasons to cover their financial needs for the rest of the year.</p>
+    <p data-i18n="farm_p2">The fig season runs from April to early August. The olive harvest starts at the beginning of October and lasts until late December.</p>
+
+    <div class="pair">
+      <figure>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpTyX9M8hxClixkZ54rV6uIijv_XZJdpGNc5eYAuz3SA&s" alt="Figs" data-i18n-alt="figs">
+        <figcaption data-i18n="figs">Figs</figcaption>
+      </figure>
+      <figure>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFjWxOXL6LDsa99NZ-f7Rb9iT3tU8-unmeLmPmJwa8efXAJzpkpSCiKVs&s=10" alt="Olives" data-i18n-alt="olives">
+        <figcaption data-i18n="olives">Olives</figcaption>
+      </figure>
+    </div>
+
+    <div class="calendar" role="img" aria-label="Fig season from April to early August; olive harvest from October to December" data-i18n-aria="cal_label">
+      <div class="months">
+        <span></span>
+        <span class="m" data-i18n="m1">Jan</span><span class="m" data-i18n="m2">Feb</span><span class="m" data-i18n="m3">Mar</span><span class="m" data-i18n="m4">Apr</span><span class="m" data-i18n="m5">May</span><span class="m" data-i18n="m6">Jun</span><span class="m" data-i18n="m7">Jul</span><span class="m" data-i18n="m8">Aug</span><span class="m" data-i18n="m9">Sep</span><span class="m" data-i18n="m10">Oct</span><span class="m" data-i18n="m11">Nov</span><span class="m" data-i18n="m12">Dec</span>
+        <span class="label" style="grid-row: 2;" data-i18n="figs">Figs</span>
+        <span class="bar fig-bar" style="grid-row: 2; grid-column: 5 / 10;"></span>
+        <span class="label" style="grid-row: 3;" data-i18n="olives">Olives</span>
+        <span class="bar olive-bar" style="grid-row: 3; grid-column: 11 / 14;"></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="weather">
+  <div class="wrap">
+    <h2 data-i18n="weather_h">Weather</h2>
+    <div class="facts">
+      <div class="fact"><strong data-i18n="summer">Summer</strong><span data-i18n="summer_t">Hot, with temperatures reaching the high 30s to low 40s °C.</span></div>
+      <div class="fact"><strong data-i18n="winter">Winter</strong><span data-i18n="winter_t">Cold.</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="community">
+  <div class="wrap">
+    <h2 data-i18n="comm_h">Education and services</h2>
+    <p data-i18n="comm_p">Ramin is small, with a population of no more than four thousand people, yet it has many educational centers, including three schools. This shows that Ramin is a cultured and important place.</p>
+    <div class="facts">
+      <div class="fact"><strong data-i18n="f1_h">Three schools</strong><span data-i18n="f1_t">Serving a population of under 4,000.</span></div>
+      <div class="fact"><strong data-i18n="f2_h">Quran memorization center</strong><span data-i18n="f2_t">For learning and memorizing the Holy Quran.</span></div>
+      <div class="fact"><strong data-i18n="f3_h">Health care center</strong><span data-i18n="f3_t">Primary care for residents.</span></div>
+      <div class="fact"><strong data-i18n="f4_h">Food stores</strong><span data-i18n="f4_t">Grocery shops across the village.</span></div>
+      <div class="fact"><strong data-i18n="f5_h">Greenhouses</strong><span data-i18n="f5_t">Plastic greenhouses that produce vegetables even out of season.</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="club" class="club">
+  <div class="wrap">
+    <span class="badge" data-i18n="club_badge">Basketball · October</span>
+    <h2 data-i18n="club_h">Ramin Club, First Division champions</h2>
+    <div class="split">
+      <div class="text">
+        <p data-i18n="club_p1">Ramin Club, from Ramin village in the Tulkarm governorate of Palestine, won the First Division basketball league title in October.</p>
+        <p data-i18n="club_p2">In the final, Ramin beat Catholic Action at Majed Asaad Hall in the city of Al-Bireh.</p>
+        <div class="callout">
+          <strong data-i18n="club_promo_h">Promoted to the Premier League</strong>
+          <span data-i18n="club_promo_t">The title takes the team up to the Premier Basketball League after a long absence from that level.</span>
+        </div>
+      </div>
+      <figure>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNwQtFST2lHDyXTpBHIFduAMtS1oF9ZHBDKD_w3yZVSA&s" alt="Ramin Club basketball team" data-i18n-alt="club_img">
+      </figure>
+    </div>
+
+    <h3 data-i18n="club_video_h">Watch the video</h3>
+    <div class="video">
+      <iframe src="https://www.youtube-nocookie.com/embed/6z2xTwscdhc" title="Ramin Club basketball video" data-i18n-title="club_video_title" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <h3 data-i18n="club_path_h">The road to the title</h3>
+    <ol class="path">
+      <li>
+        <span class="step" data-i18n="club_s1">Group stage</span>
+        <span class="big" data-i18n="club_s1_big">Unbeaten</span>
+        <span class="desc" data-i18n="club_s1_t">Topped the group in the first round without a single loss.</span>
+      </li>
+      <li>
+        <span class="step" data-i18n="club_s2">Semi-final</span>
+        <span class="big">74–63</span>
+        <span class="desc" data-i18n="club_s2_t">Beat Silwan Sports Club to reach the final.</span>
+      </li>
+      <li>
+        <span class="step" data-i18n="club_s3">Final</span>
+        <span class="big" data-i18n="club_s3_big">Champions</span>
+        <span class="desc" data-i18n="club_s3_t">Beat Catholic Action to lift the title.</span>
+      </li>
+    </ol>
+
+    <h3 data-i18n="club_mgmt_h">Behind the team</h3>
+    <div class="facts">
+      <div class="fact"><strong data-i18n="club_m1_h">Wael Sanjaq</strong><span data-i18n="club_m1_t">President, and a former Ramin player.</span></div>
+      <div class="fact"><strong data-i18n="club_m2_h">Amjad Lafi</strong><span data-i18n="club_m2_t">Vice president.</span></div>
+      <div class="fact"><strong data-i18n="club_m3_h">Ahmad Sanjaq</strong><span data-i18n="club_m3_t">Head coach.</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="location" class="location">
+  <div class="wrap">
+    <h2 data-i18n="loc_h">Find Ramin on the map</h2>
+    <p data-i18n="loc_p">See the exact location of the village on Google Maps.</p>
+    <iframe class="map" id="mapFrame" title="Map of Ramin" data-i18n-title="map_title" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Ramin%2C%20Tulkarm%2C%20Palestine&z=14&hl=en&output=embed"></iframe>
+    <a class="btn" href="https://maps.app.goo.gl/osx2pn5yfhkXCAiu6" target="_blank" rel="noopener" data-i18n="loc_btn">Open in Google Maps</a>
+  </div>
+</section>
+
+<footer data-i18n="footer">Ramin, a Palestinian village in the Tulkarm area, Palestine</footer>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" data-i18n-aria="lb_label" hidden>
+  <button type="button" class="lb-close" id="lbClose" aria-label="Close" data-i18n-aria="lb_close">&times;</button>
+  <img alt="">
+</div>
+
+<script>
+(function () {
+  var AR = {
+    page_title: "قرية رامين، طولكرم، فلسطين | نادي رامين لكرة السلة | Ramin",
+    nav_label: "التنقل الرئيسي",
+    hero_title: "رامين",
+    hero_p: "قرية في شمال فلسطين، قرب طولكرم، تشتهر بالتين وزيت الزيتون.",
+    nav_about: "نبذة",
+    nav_landmarks: "المعالم",
+    nav_farming: "الزراعة",
+    nav_weather: "الطقس",
+    nav_community: "المجتمع",
+    nav_location: "الموقع",
+    about_h: "نبذة عن رامين، قرية في فلسطين",
+    about_p1: "رامين قرية في شمال فلسطين تتبع مدينة طولكرم. وهي حلقة وصل بين مدينتي طولكرم ونابلس وبلديتي بيت ليد وبزاريا.",
+    about_p2: "خرج من رامين كثير من المفكرين والعلماء الذين أسهموا في نهضة فلسطين. وهي أيضًا من أكبر منتجي التين وزيت الزيتون في فلسطين، وتزوّد البلاد بهما. وفي موسم واحد يمتد نحو شهرين ونصف إلى ثلاثة أشهر، تنتج رامين أكثر من 360 طنًا من التين.",
+    about_img: "منظر لقرية رامين",
+    land_h: "المعالم",
+    land_p1: "في رامين معالم قديمة كثيرة من العهد العثماني، منها نفق سكة حديد الحجاز الذي ربط بلاد الشام بشبه الجزيرة العربية. كما ربط داخل فلسطين مدن بيسان وجنين وطولكرم وحيفا ويافا وعكا.",
+    land_p2: "بدأ العمل في أواخر القرن التاسع عشر في عهد السلطان عبد الحميد الثاني، بإشراف المهندس الألماني هاينريش أوغست مايسنر. وافتُتحت السكة رسميًا عام 1912.",
+    land_img1: "نفق سكة حديد الحجاز في رامين",
+    land_p3: "ولرامين أيضًا سهل واسع، يستغل السكان مساحته الكبيرة في الزراعة، فيزرعون القمح والبرقوق والكرز والتين والزيتون.",
+    land_img2: "سهل رامين الواسع",
+    farm_h: "الزراعة ومواسم الحصاد",
+    farm_p1: "تشتهر رامين بزراعة التين والزيتون. وتعتمد معظم العائلات على هذين الموسمين لتغطية احتياجاتها المالية لبقية العام.",
+    farm_p2: "يمتد موسم التين من أبريل حتى مطلع أغسطس. ويبدأ قطاف الزيتون في بداية أكتوبر ويستمر حتى أواخر ديسمبر.",
+    figs: "التين",
+    olives: "الزيتون",
+    cal_label: "موسم التين من أبريل إلى مطلع أغسطس؛ وقطاف الزيتون من أكتوبر إلى ديسمبر",
+    m1: "يناير", m2: "فبراير", m3: "مارس", m4: "أبريل", m5: "مايو", m6: "يونيو",
+    m7: "يوليو", m8: "أغسطس", m9: "سبتمبر", m10: "أكتوبر", m11: "نوفمبر", m12: "ديسمبر",
+    weather_h: "الطقس",
+    summer: "الصيف",
+    summer_t: "حار، وتصل درجات الحرارة إلى أواخر الثلاثينيات وأوائل الأربعينيات المئوية.",
+    winter: "الشتاء",
+    winter_t: "بارد.",
+    comm_h: "التعليم والخدمات",
+    comm_p: "رامين صغيرة، لا يزيد عدد سكانها على أربعة آلاف نسمة، ومع ذلك فيها مراكز تعليمية كثيرة، منها ثلاث مدارس. وهذا يدل على أن رامين مكان مثقف ومهم.",
+    f1_h: "ثلاث مدارس",
+    f1_t: "تخدم أقل من 4,000 نسمة.",
+    f2_h: "مركز تحفيظ القرآن",
+    f2_t: "لتعلّم القرآن الكريم وحفظه.",
+    f3_h: "مركز رعاية صحية",
+    f3_t: "رعاية أولية للسكان.",
+    f4_h: "محلات المواد الغذائية",
+    f4_t: "محلات بقالة في أنحاء القرية.",
+    f5_h: "البيوت البلاستيكية",
+    f5_t: "بيوت بلاستيكية تنتج الخضار حتى خارج الموسم.",
+    loc_h: "ابحث عن رامين على الخريطة",
+    loc_p: "اطّلع على الموقع الدقيق للقرية على خرائط جوجل.",
+    map_title: "خريطة رامين",
+    loc_btn: "افتح في خرائط جوجل",
+    footer: "رامين، قرية فلسطينية في منطقة طولكرم، فلسطين",
+    nav_club: "كرة السلة",
+    aka_l: "ويُكتب أيضًا",
+    club_badge: "كرة السلة · أكتوبر",
+    club_h: "نادي رامين بطل دوري الدرجة الأولى",
+    club_p1: "توّج نادي رامين (من قرية رامين في محافظة طولكرم بفلسطين) بلقب دوري الدرجة الأولى لكرة السلة في أكتوبر.",
+    club_p2: "وفي المباراة النهائية، فاز فريق رامين على فريق العمل الكاثوليكي على صالة ماجد أسعد في مدينة البيرة.",
+    club_promo_h: "الصعود إلى الدرجة الممتازة",
+    club_promo_t: "تأهل الفريق بهذا الإنجاز إلى دوري الدرجة الممتازة لكرة السلة بعد انقطاع طويل عن المشاركات في هذه الفئة.",
+    club_img: "فريق نادي رامين لكرة السلة",
+    club_path_h: "المشوار نحو اللقب",
+    club_s1: "الدور الأول",
+    club_s1_big: "بلا خسارة",
+    club_s1_t: "تصدّر رامين مجموعته في الدور الأول دون أي خسارة.",
+    club_s2: "نصف النهائي",
+    club_s2_t: "فاز على نادي سلوان الرياضي ليبلغ النهائي.",
+    club_s3: "النهائي",
+    club_s3_big: "أبطال",
+    club_s3_t: "فاز على العمل الكاثوليكي وحسم اللقب.",
+    club_mgmt_h: "إدارة الفريق",
+    club_m1_h: "وائل سنجق",
+    club_m1_t: "رئيس النادي ولاعب سابق في رامين.",
+    club_m2_h: "أمجد لافي",
+    club_m2_t: "نائب الرئيس.",
+    club_m3_h: "أحمد سنجق",
+    club_m3_t: "مدرب الفريق.",
+    club_video_h: "شاهد الفيديو",
+    club_video_title: "فيديو نادي رامين لكرة السلة",
+    lb_label: "عارض الصور",
+    lb_close: "إغلاق",
+    photo_unavailable: "الصورة غير متاحة: ",
+    btn_label: "English",
+    btn_aria: "Switch to English"
+  };
+  var EN_EXTRA = {
+    photo_unavailable: "Photo unavailable: ",
+    btn_label: "العربية",
+    btn_aria: "التبديل إلى العربية"
+  };
+
+  var attrs = [
+    ['data-i18n-alt', 'alt'],
+    ['data-i18n-aria', 'aria-label'],
+    ['data-i18n-title', 'title']
+  ];
+
+  // Remember the original English text/attributes straight from the markup
+  document.querySelectorAll('[data-i18n]').forEach(function (el) { el.dataset.en = el.textContent; });
+  attrs.forEach(function (pair) {
+    document.querySelectorAll('[' + pair[0] + ']').forEach(function (el) {
+      el.setAttribute('data-en-' + pair[1], el.getAttribute(pair[1]) || '');
+    });
+  });
+  var enTitle = document.title;
+  var enDesc = document.querySelector('meta[name="description"]').getAttribute('content');
+  var arDesc = "رامين (Ramin / Rameen) قرية فلسطينية قرب طولكرم، تشتهر بالتين وزيت الزيتون ونفق سكة حديد الحجاز، وفيها نادي رامين لكرة السلة بطل دوري الدرجة الأولى.";
+
+  var btn = document.getElementById('langBtn');
+  var map = document.getElementById('mapFrame');
+  var current = 'en';
+
+  function t(key) { return current === 'ar' ? AR[key] : EN_EXTRA[key]; }
+
+  function setLang(lang) {
+    current = lang;
+    var ar = lang === 'ar';
+    document.documentElement.lang = lang;
+    document.documentElement.dir = ar ? 'rtl' : 'ltr';
+
+    document.querySelectorAll('[data-i18n]').forEach(function (el) {
+      el.textContent = ar ? AR[el.getAttribute('data-i18n')] : el.dataset.en;
+    });
+    attrs.forEach(function (pair) {
+      document.querySelectorAll('[' + pair[0] + ']').forEach(function (el) {
+        el.setAttribute(pair[1], ar ? AR[el.getAttribute(pair[0])] : el.getAttribute('data-en-' + pair[1]));
+      });
+    });
+
+    document.title = ar ? AR.page_title : enTitle;
+    document.querySelector('meta[name="description"]').setAttribute('content', ar ? arDesc : enDesc);
+
+    btn.textContent = t('btn_label');
+    btn.setAttribute('aria-label', t('btn_aria'));
+    btn.setAttribute('lang', ar ? 'en' : 'ar');
+
+    // Failed-image placeholders follow the language too
+    document.querySelectorAll('.img-fail').forEach(function (d) {
+      var key = d.getAttribute('data-alt-key');
+      var altEn = d.getAttribute('data-alt-en');
+      d.textContent = t('photo_unavailable') + (ar && AR[key] ? AR[key] : altEn);
+    });
+
+    // Reload the map in the matching interface language
+    var src = map.getAttribute('src').replace(/hl=[a-z]+/, 'hl=' + lang);
+    if (src !== map.getAttribute('src')) map.setAttribute('src', src);
+
+    try { localStorage.setItem('ramin-lang', lang); } catch (e) {}
+  }
+
+  btn.addEventListener('click', function () { setLang(current === 'ar' ? 'en' : 'ar'); });
+
+  document.querySelectorAll('figure img').forEach(function (img) {
+    img.addEventListener('error', function () {
+      var d = document.createElement('div');
+      d.className = 'img-fail';
+      d.setAttribute('data-alt-key', img.getAttribute('data-i18n-alt') || '');
+      d.setAttribute('data-alt-en', img.getAttribute('data-en-alt') || img.alt);
+      var key = d.getAttribute('data-alt-key');
+      d.textContent = t('photo_unavailable') + (current === 'ar' && AR[key] ? AR[key] : d.getAttribute('data-alt-en'));
+      img.replaceWith(d);
+    });
+  });
+
+  // Click (or Enter/Space) on a photo to view it full screen
+  var lightbox = document.getElementById('lightbox');
+  var lbImg = lightbox.querySelector('img');
+  var lbClose = document.getElementById('lbClose');
+  var lastFocus = null;
+
+  function openLightbox(img) {
+    lastFocus = img;
+    lbImg.src = img.currentSrc || img.src;
+    lbImg.alt = img.alt;
+    lightbox.hidden = false;
+    document.body.style.overflow = 'hidden';
+    lbClose.focus();
+  }
+  function closeLightbox() {
+    if (lightbox.hidden) return;
+    lightbox.hidden = true;
+    lbImg.removeAttribute('src');
+    document.body.style.overflow = '';
+    if (lastFocus) lastFocus.focus();
+  }
+
+  document.querySelectorAll('figure img').forEach(function (img) {
+    img.setAttribute('tabindex', '0');
+    img.setAttribute('role', 'button');
+    img.addEventListener('click', function () { openLightbox(img); });
+    img.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openLightbox(img); }
+    });
+  });
+  lightbox.addEventListener('click', closeLightbox);
+  lbClose.addEventListener('click', function (e) { e.stopPropagation(); closeLightbox(); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeLightbox(); });
+
+  // Start in the saved language, or Arabic if the browser is set to Arabic
+  var start = 'en';
+  try {
+    var saved = localStorage.getItem('ramin-lang');
+    if (saved === 'ar' || saved === 'en') start = saved;
+    else if ((navigator.language || '').toLowerCase().indexOf('ar') === 0) start = 'ar';
+  } catch (e) {}
+  if (start === 'ar') setLang('ar');
+})();
+</script>
+</body>
+</html>
